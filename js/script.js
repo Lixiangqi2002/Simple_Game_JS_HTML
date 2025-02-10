@@ -79,18 +79,18 @@ var LEVELS = [	[ // map 1
 					"                                                                                ",
 					"                                                                                ",
 					"                                                                                ",
-					"                                                                                ",
-					"                                                                  xxx           ",
+					"                                                                   o            ",
+					"                                                   o              xxx           ",
 					"                                                   xx      xx    xx!xx          ",
 					"                                    o o      xx                  x!!!x          ",
 					"                                                                 xx!xx          ",
 					"                                   xxxxx                          xvx           ",
-					"                                                                           xx   ",
-					"  xx                                      o                                x    ",
-					"  x                     o                     x                            x    ",
-					"  x                                      xxxxx                             o x  ",
+					"                                                                                ",
+					"  xx                                      o                                     ",
+					"  x                     o                     x                                 ",
+					"  x                                      xxxxx               oo            o x  ",
 					"  x          xxxx       o                  x                             x x    ",
-					"  x  @       x  x                 x        xxxxx       o                 x      ",
+					"  x  @       x  x                 x        xxxxx                         x      ",
 					"  xxxxxxxxxxxx  xxxxxxxxxxxxxxx   xxxxxxxxxxxxxxxxxxxx     xxxxxxx   xxxxxxxx   ",
 					"                              x   x                  x     x                    ",
 					"                              x!!!x                  x!!!!!x                    ",
@@ -105,18 +105,18 @@ var LEVELS = [	[ // map 1
 					"                                                                                ",
 					"                                                                                ",
 					"                                                                                ",
-					"                                                                                ",
-					"                                                                  xxx           ",
+					"                                                                   o            ",
+					"                                                   o        o     xxx           ",
 					"                                                   xx      xx    xx!xx          ",
 					"                                    o o      xx                  x!!!x          ",
 					"                                                                 xx!xx          ",
 					"                                   xxxxx                          xvx           ",
-					"                                                                            xx  ",
+					"                                                  xx                        xx  ",
 					"  xx                                      o o                                x  ",
 					"  x                     o         xx!x                                      x   ",
 					"  x              x                x!x          xxxxx                       o x  ",
-					"  x          xxxx       o          x        x          o  x x                x  ",
-					"  x  @       x  x                 x        xxxxx       o                 x  x   ",
+					"  x          xxxx       o          x        x             x x                x  ",
+					"  x  @       x  x                 x        xxxxx               o         x  x   ",
 					"  xxxxxxxxxxxx  xxxxxxxxxxxxxxx   xxxxxxxxxxxxxxxxxxxx     xxxxxxx   xxxxxxxx   ",
 					"                              x   x                  x     x                    ",
 					"                              x!!!x                  x!!!!!x                    ",
@@ -144,7 +144,7 @@ var LEVELS = [	[ // map 1
 					"              !                          xxxxx x                                x",
 					"              x !                              xx    x               !          x",
 					"                x         !                    x            o  o    xx   x   o  x",
-					"   x x     xx    xxxxxxxx x   xxx xxxx xxxxx x x            xx       x   xx     x",
+					"   x x    xx     xxxxxxxx x   xxx xxxx xxxxx x x            xx       x   xx     x",
 					"                     xx!        x              x           x       xxx        xxx",
 					"                       x       !x x x          x    xx!!!  x         x       xx x",
 					"             x         x       !!!  x                  !!!!xxxxx     x   x      x",
@@ -153,32 +153,32 @@ var LEVELS = [	[ // map 1
 					"    x x                x      x      xx !!  ! !xx      ! !!! !       x          x",
 					],
 					
-				[ // map 7
-					"                                      x!!x                        xxxxxx        x",
-					"                                      x !x                     xxxx     x x     x",
-					"                                       !!xxxxxx  xx            x           xx   x",
-					"                                        !!!! !!!! x          xx             xx  x",
-					"                                       xx xx xx x!!x      v                     x",
-					"                                                 x                 o            x",
-					"                                                   x         x     x            x",
-					"                                                 x x             xx x  x        x",
-					"                                      o      xx               x      x       x  x",
-					"                                                              xx xx!x  !        x",
-					"                                    xx                         x xxv!  !xxxx    x",
-					"                    x                          x                   xx xvx      xx",
-					"  x                                       o    x                                x",
-					"                                               x     x                     xx   x",
-					"              !                          xxxxx x                                x",
-					"              x !                              xx    x               !         xx",
-					"                x         !                    x            o  o    xx   x   o  x",
-					"   x x     xx    xxxxxxxx x   xxx xxxx xxxxx x x            xx       x   xx     x",
-					"                     xx!        x              x           x       xxx        xxx",
-					"                       x       !x x x          x    xx!!!  x         x       xx x",
-					"             x         x       !!!  x                  !!!!xxxxx     x   x      x",
-					" @  !x    o  x         x     !!xxxx x      ! ! x         x x      o  x o     x  x",
-					"xxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxx",
-					"    x x                x      x      xx !!  ! !xx      ! !!! !       x          x",
-				],
+					[ // map 7
+						"                                      x!!x                                      x",
+						"                                      x !x                     xxxx     x x     x",
+						"                                       !!xxxxxx  xx            x           xx   x",
+						"                                        !!!! !!!! x          xx             xx  x",
+						"                                       xx xx xx x!!x      v                     x",
+						"                                                 x                 o            x",
+						"                                                   x         x     x           vx",
+						"                                                 x x             xx x  x        x",
+						"                                      o      xx   v           x      x       x  x",
+						"            xxxxvxxxx                                         xx xx!x  !        x",
+						"                                    xx                         x xxv!  !xxxx    x",
+						"                                               x                   xx xvx       x",
+						"  x                                       o    x                                x",
+						"                                           =   x     x                     xx   x",
+						"              !                          xxxxx x                                x",
+						"              x                               xx    x               !          x",
+						"                x    =    !                    x            o  o    xx   x   o  x",
+						"   x x    xx     xxxxxxxx x   xxx xxxx xxxxx x x            xx       x   xx     x",
+						"                     xx!        x              x           x       xxx        xxx",
+						"                       x       !x x x          x    xx!!!  x         x       xx x",
+						"             x         x     !!!!!  x                  !!!!xxxxx     x   x      x",
+						" @  !x    o  x!        x!    !!xxxx x      ! ! x         x x      o  x o     x  x",
+						"xxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxx",
+						"    x x                x      x      xx !!  ! !xx      ! !!! !       x          x",
+						],
 
 				[ // map 8
 					"                                      x!!x                        xxxxxxx                                    x!x  ",
@@ -195,7 +195,7 @@ var LEVELS = [	[ // map 1
 					"                  xvx                          x     x            xxxxxvx        xxx         xxx                  ",
 					"                                               x     x                           x x         x x                  ",
 					"                                               x     x                             x         x                    ",
-					"                                               x     x                             xx        x                    ",
+					"                                 xvx           x     x                             xx        x                    ",
 					"                                               xx    x                             x         x                    ",
 					"                                               x     x      o  o     x   x         x         x                    ",
 					"               xxxxxxx        xxx   xxx        x     x               x   x         x         x                    ",
@@ -212,8 +212,40 @@ var LEVELS = [	[ // map 1
 					"!!!!x x!!!!!!x         x!!!!!!xxxxxxxxx!!!!!!!!!!!!!!!!!!xx    !                                                  ",
 					"!!!!x x!!!!!!x         x!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!xx     !                                                  "
 				],
-				
-				[// map 12
+				[ // map 9
+					"                                      x!!x                        xxxxxxx                                    x!x  ",
+					"                                      x!!x                     xxxx     xxxx                                 x!x  ",
+					"                                      x!!xxxxxxxxxx           xx           xx                                x!x  ",
+					"                                      xx!!!!!!!!!!xx         xx             xx                               x!x  ",
+					"                                       xxxxxxxxxx!!x         x                                    o   o   o  x!x  ",
+					"                                                xx!x         x     o   o                              =     xx!x  ",
+					"                                                 x!x         x                                xxxxxxxxxxxxxxx!!x  ",
+					"                                                 xvx         x     x   x                        =!!!!!!!!!!!!!xx  ",
+					"                                                             xx  |   |   |  xx            xxxxxxxxxxxxxxxxxxxxx   ",
+					"                                                              xx!!!!!!!!!!!xx            v                        ",
+					"                                                               xxxx!!!!!xxxx                                      ",
+					"                  xvx                          x  v  x            xxxxxvx        xxx         xxx                  ",
+					"                                               x     x                           x x   v     x x                  ",
+					"                                               x     x                             x         x                    ",
+					"                                 xvx           x     x                             xx        x                    ",
+					"                                               xx    x                             x         x                    ",
+					"                                               x     x      o  o     x   x         x         x                    ",
+					"               xxxxxxx        xxx   xxx        x     x        =      x   x         x         x                    ",
+					"         v    xx     xx         x   x          x     x     xxxxxx    x   x   xxxxxxxxx       x                    ",
+					"             xx       xx        x o x          x    xx               x   x   x               x                    ",
+					"     @       x         x        x   x          x     x               x   x   x               x                    ",
+					"    xxx      x         x        x   x          x     x               x   xxxxx   xxxxxx      x                    ",
+					"    x x      x         x       xx o xx         x     x               x     o     x x         x                    ",
+					"!!!!x x!!!!!!x         x!!!!!!xx     xx!!!!!!!!xx    x!!!!!!!!!!     x     =     x x         x                    ",
+					"!!!!x x!!!!!!x         x!!!!!xx       xxxxxxxxxx     x!!!!!!!xx!     xxxxxxxxxxxxx xx  o o  xx                    ",
+					"!!!!x x!!!!!!x         x!!!!!x    o                 xx!!!!!!xx !                    xx     xx                     ",
+					"!!!!x x!!!!!!x         x!!!!!x                     xx!!!!!!xx  !                     xxxxxxx                      ",
+					"!!!!x x!!!!!!x         x!!!!!xx       xxxxxxxxxxxxxx!!!!!!xx   !                                                  ",
+					"!!!!x x!!!!!!x         x!!!!!!xxxxxxxxx!!!!!!!!!!!!!!!!!!xx    !                                                  ",
+					"!!!!x x!!!!!!x         x!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!xx     !                                                  "
+				],
+
+				[// map 10
 					"                                                                                                              ",
 					"                                                                                                              ",
 					"                                                                                                              ",
@@ -262,33 +294,34 @@ var LEVELS = [	[ // map 1
 					"                                                                                                              ",
 					"                                                                                                              "
 				],
-				[ // map 10
-					"                                                                                                  xxx x       ",
+			
+				[ // map 11
+					"                                                                                                  xxxox       ",
 					"                                                                                                      x       ",
 					"                                                                                                  xxxxx       ",
-					"                                                                                                  x           ",
-					"                                                                                                  x xxx       ",
-					"                          o                                                                       x x x       ",
+					"                                                               v                       v         xx           ",
+					"                                                                     v           v            v   x xxx       ",
+					"                          o                                                v                      x x x       ",
 					"                                                                                             o o oxxx x       ",
 					"                   xxx                                                                                x       ",
 					"       !  o  !                                                xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx       ",
-					"       x     x                                                x   x x   x x   x x   x x   x x   x x           ",
-					"       x= o  x            x                                   xxx x xxx x xxx x xxx x xxx x xxx x xxxxx       ",
-					"       x     x                                                  x x   x x   x x   x x   x x   x x     x       ",
-					"       !  o  !            o                                  xxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxxxx       ",
+					"       x    =x                                                x   x x   x x   x x   x x   x x   x x           ",
+					"       x= o  x            x                               ||  xxx x xxx x xxx x xxx x xxx x xxx x xxxxx       ",
+					"       x    =x                                                  x x   x x   x x   x x   x x   x x     x       ",
+					"       !  o  !     v      o    v                             xxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxxxx       ",
 					"                                                                                                              ",
 					"          o              xxx                              xx                                                  ",
 					"                                                                                                              ",
 					"                                                                                                              ",
-					"                                                      xx                                                      ",
+					"                                                      xx         ||            ||          ||                 ",
 					"                   xxx         xxx                                                                            ",
 					"                                                                                                              ",
 					"                          o                                                     x      x                      ",
-					"                                                          xx     xx                                           ",
+					"     =        =           =           =                   xx     xx                                           ",
 					"             xxx         xxx         xxx                                 x                  x                 ",
 					"                                                                                                              ",
-					"                                                                 ||                                           ",
-					"  xxxxxxxxxxx                                                                                                 ",
+					"                                                                 ||                ||                         ",
+					"  xxxxxxxxxxx   =   x    =      x    =           =x                                                                     ",
 					"  x         x o xxxxxxxxx o xxxxxxxxx o xx                                                x                   ",
 					"  x         x   x       x   x       x   x                 ||                  x     x                         ",
 					"  x  @      xxxxx   o   xxxxx   o   xxxxx                                                                     ",
@@ -299,7 +332,6 @@ var LEVELS = [	[ // map 1
 					"                                                                                                              "
 				]
 			];
-			
 			function Vector(x, y) {
 				this.x = x;
 				this.y = y;
@@ -368,13 +400,14 @@ var LEVELS = [	[ // map 1
 						var Actor = actorchars[ch];
 						if (Actor) this.actors.push(new Actor(new Vector(x, y), ch));
 						else if (ch === "x") fieldType = "wall";
+						else if (ch === "v") {
+							fieldType = "lava";
+							// console.log(fieldType);
+						}
 						else if (ch === "!") fieldType = "lava";
 						else if (ch === "|") fieldType = "lava";
 						else if (ch === "=") fieldType = "lava";
-						else if (ch === "v") {
-							fieldType = "lava";
-							console.log(fieldType);
-						}
+						
 						gridLine.push(fieldType);
 					}
 					this.grid.push(gridLine);
@@ -435,6 +468,7 @@ var LEVELS = [	[ // map 1
 				this.scrollPlayerIntoView();
 			};
 			
+			// 稍后清除
 			DOMDisplay.prototype.scrollPlayerIntoView = function () {
 				var width = this.wrap.clientWidth;
 				var height = this.wrap.clientHeight;
@@ -461,6 +495,7 @@ var LEVELS = [	[ // map 1
 				this.wrap.parentNode.removeChild(this.wrap);
 			};
 			
+		
 			Level.prototype.obstacleAt = function (pos, size) {
 				var xStart = Math.floor(pos.x);
 				var xEnd = Math.ceil(pos.x + size.x);
@@ -469,48 +504,65 @@ var LEVELS = [	[ // map 1
 			
 				if (xStart < 0 || xEnd > this.width || yStart < 0) return "wall";
 				if (yEnd > this.height) return "lava";
+			
 				for (var y = yStart; y < yEnd; y++) {
 					for (var x = xStart; x < xEnd; x++) {
 						var fieldType = this.grid[y][x];
-						if (fieldType) return fieldType;
+						if (fieldType) {
+							// console.log(`Obstacle detected: ${fieldType} at (${x}, ${y})`);
+							return fieldType;
+						}
 					}
 				}
+				return null;
 			};
+			
 			
 			Level.prototype.actorAt = function (actor) {
 				for (var i = 0; i < this.actors.length; i++) {
 					var other = this.actors[i];
-					if (
-						other != actor &&
+					if (other != actor &&
 						actor.pos.x + actor.size.x > other.pos.x &&
 						actor.pos.x < other.pos.x + other.size.x &&
 						actor.pos.y + actor.size.y > other.pos.y &&
-						actor.pos.y < other.pos.y + other.size.y
-					)
+						actor.pos.y < other.pos.y + other.size.y) {
+						// console.log(`Collision detected: ${actor.type} at (${actor.pos.x.toFixed(2)}, ${actor.pos.y.toFixed(2)}) with ${other.type} at (${other.pos.x.toFixed(2)}, ${other.pos.y.toFixed(2)})`);
 						return other;
+					}
 				}
+				return null;
 			};
 			
-			var maxStep = 0.05;
 			
+			var maxStep = 0.05;
+		
 			Level.prototype.animate = function (step, keys) {
 				if (this.status != null) this.finishDelay -= step;
 			
 				while (step > 0) {
 					var thisStep = Math.min(step, maxStep);
 					this.actors.forEach(function (actor) {
-						actor.act(thisStep, this, keys);
+						actor.act(thisStep, this, keys); // 每帧调用 act
 					}, this);
 					step -= thisStep;
 				}
 			};
 			
+			
 			Lava.prototype.act = function (step, level) {
 				var newPos = this.pos.plus(this.speed.times(step));
-				if (!level.obstacleAt(newPos, this.size)) this.pos = newPos;
-				else if (this.repeatPos) this.pos = this.repeatPos;
-				else this.speed = this.speed.times(-1);
+				var obstacle = level.obstacleAt(newPos, this.size);
+			
+				if (!obstacle) {
+					this.pos = newPos; 
+				} else if (this.repeatPos) {
+					this.pos = this.repeatPos;
+				} else {
+					this.speed = this.speed.times(-1);
+				}
+			
 			};
+			
 			
 			var wobbleSpeed = 8,
 				wobbleDist = 0.07;
@@ -557,28 +609,33 @@ var LEVELS = [	[ // map 1
 				this.moveY(step, level, keys);
 			
 				var otherActor = level.actorAt(this);
-				if (otherActor) level.playerTouched(otherActor.type, otherActor);
+				if (otherActor) {
+					console.log(`Player is touching: ${otherActor.type}`);
+					level.playerTouched(otherActor.type, otherActor);
+				}
 			
-				// 丢失动画
 				if (level.status == "lost") {
 					this.pos.y += step;
 					this.size.y -= step;
 				}
 			};
 			
+		
 			Level.prototype.playerTouched = function (type, actor) {
 				if (type == "lava" && this.status == null) {
+					// console.log(`Player touched lava at (${actor.pos.x.toFixed(2)}, ${actor.pos.y.toFixed(2)})`);
 					this.status = "lost";
 					this.finishDelay = 1;
-				} else if (type == "coin") {
+				}else if (type == "Lava" && this.status == null) {
+					// console.log(`Player touched lava at (${actor.pos.x.toFixed(2)}, ${actor.pos.y.toFixed(2)})`);
+					this.status = "lost";
+					this.finishDelay = 1;
+				} 
+				else if (type == "coin") {
 					this.actors = this.actors.filter(function (other) {
 						return other != actor;
 					});
-					if (
-						!this.actors.some(function (actor) {
-							return actor.type == "coin";
-						})
-					) {
+					if (!this.actors.some(function (actor) { return actor.type == "coin"; })) {
 						this.status = "won";
 						this.finishDelay = 1;
 					}
@@ -616,6 +673,7 @@ var LEVELS = [	[ // map 1
 			}
 			
 			var arrows = trackKeys(arrowCodes);
+			
 			
 			function runLevel(level, Display, andThen) {
 				var display = new Display(document.body, level);
@@ -682,7 +740,7 @@ var LEVELS = [	[ // map 1
 						}
 					});
 				}
-				startLevel(4);
+				startLevel(0);
 			}
 			
 			
