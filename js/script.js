@@ -335,7 +335,7 @@ var LEVELS = [
 					"                                                                                                              ",
 					"                                                                                                              "
 				],
-				[// map 10
+				[// map 11
 					"                                                                                                              ",
 					"                                    x|xxxxvx               xxxxvxxxx|xx                                       ",
 					"                                                                                                              ",
@@ -384,7 +384,7 @@ var LEVELS = [
 					"                                                                                                              ",
 					"                                                                                                              "
 				],
-				[// map 11
+				[// map 12
 					"                                                                                                              ",
 					"                                    x|xxxxvx               xxxxvxxxx|xx                                       ",
 					"                                                                                                              ",
@@ -433,7 +433,7 @@ var LEVELS = [
 					"                                                                                                              ",
 					"                                                                                                              "
 				],
-				[ // map 12
+				[ // map 13
 					"                                                                                                  xxxox       ",
 					"                                                                                                      x       ",
 					"                                                                                                  xxxxx       ",
@@ -469,7 +469,7 @@ var LEVELS = [
 					"                                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
 					"                                                                                                              "
 				],
-				[ // map 13
+				[ // map 14
 					"                                                                                                  xxxox       ",
 					"                                                                                                      x       ",
 					"                                                                                                  xxxxx       ",
@@ -505,7 +505,7 @@ var LEVELS = [
 					"                                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
 					"                                                                                                              "
 				],
-				[ // map 14
+				[ // map 15
 					"                                                                                                 |xxxox       ",
 					"                                                                                                      x       ",
 					"                                                                     |     |     |                xxxxx       ",
